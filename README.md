@@ -11,3 +11,7 @@ $('my-css');
 // Is the same as:
 
 element(by.css('my-css'));
+
+
+2.Login code in config file:
+Another option is to put your log-in code into an onPrepare function, which will be run once before any of your tests.
