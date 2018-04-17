@@ -81,3 +81,5 @@ Summary:
 
 Though Selenium can do some of the things what protractor does, the protractor is the industrial standard and best practice to test AngularJS applications. A Protractor can also manage multiple capabilities in it and handle the dynamic changes of web elements using ng-model, ng-click.., etc.. (Which selenium cannot do).
 
+
+
