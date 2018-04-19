@@ -83,3 +83,14 @@ Though Selenium can do some of the things what protractor does, the protractor i
 
 
 
+//Command To check jasmine reports are installed on machiene
+ npm list -g jasmine-reporters
+
+Command for installing jasmine reporters
+
+
+npm install --save-dev jasmine-reporters@^2.0.0
+
+
+
+

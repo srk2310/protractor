@@ -7,4 +7,11 @@ exports.config = {
     //}, {
      // browserName: 'chrome'
    // }]
+     framework: 'jasmine2' ,
+      onPrepare: function() {
+          var jasmineReporters = require('/Users/shravani/Documents/Automation/protractor/node_modules');
+          jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter(null, true, true)
+          );
+         }
+
   }
