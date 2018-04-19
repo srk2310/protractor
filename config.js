@@ -9,7 +9,7 @@ exports.config = {
    // }]
      framework: 'jasmine2' ,
       onPrepare: function() {
-          var jasmineReporters = require('/Users/shravani/Documents/Automation/protractor/node_modules');
+          var jasmineReporters = require('/Users/shravani/Documents/Automation/protractor/node_modules/jasmine-reporters');
           jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter(null, true, true)
           );
          }
